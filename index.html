@@ -1,38 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cad Skill Canvas</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <!-- <div class=""></div> -->
-    <!-- <p class="">Hello World</p> -->
-    <section class="">
-        <img src="./assets/mobile-hero-image.png" alt="smiling man with glasses " class="">
-        <div class="">
-            <p class="">John Doe</p>
-            <p class="">Software Engineer</p>
-        </div>
-        <div class="">
-            <button class="">Share Link</button>
-            <button class="">Projects</button>
-        </div>
-    </section>
-    <div class="">
-        <div class="">
-            <b class="">Male</b>
-            <span class="">Gender</span>
-        </div>
-        <div class="">
-            <b class="">Rivers</b>
-            <span class="">State of residence</span>
-        </div>
-        <div class="">
-            <b class="">Intermediate</b>
-            <span class="">Experience Level</span>
-        </div>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width-device-width, initial-scale-1.6"/>
+        <title>cad skill canvas</title>
+        <link rel="preconnect"href="https://fonts.googlepis.com" />
+        <link rel="preconnect"href="https://fonts.gstatics.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <main class="main-content">
+            <!--first section AKA hero section-->
+            <section class="col-span-1">
+                <div class="hero-section">
+                    <!--<div class="">
+                    </div>-->
+                    <image src="./assets/mobile-hero-image.png"width="100x"alt="smiling man with glass"class="hero img" />
+                    <div class="hero-content">
+                        <div class="hero-text-container show-mobile-online">
+                            <p class="hero-text-name">John Doe</p>
+                            <p class="hero-text-position">Software Engineering</p>
+                        </div>
+                        <div class="hero-btn btn-container show-mobile-only">
+                            <button class="btn btn-blue">share link</button>
+                            <button class="btn btn-outline">project</button>
+                        </div>
+                    </div>
+                </div>
+                <!--personal info section-->
+                <div class="personal-info-sectio gen-pad">
+                    <div class="sub-info-container">
+                        <b class="sub-info-label">Gender</b>
+                        <span class="sub-info-title"><br>Male</span>
+                    </div>
+                    <div class="sub-info-container">
+                        <b class="sub-infor label">State of Residence</b>
+                        <span class="sub-info-title"><br>Rivers</span>
+                    </div>
+                    <div class="sub-info-container">
+                        <b class="sub-infor-title">Experience level</b>
+                        <span class="sub-info-title">intermediate</span>
+                    </div>
+                    <div class="contact-container">
+                        <h5 class="section-title">contacts</h5>
+                        <div clas="contact-wrapper">
+                            <a href="maito:johndoe@gmail.com">johndoe@gmail.com</a>
+                            <a href="tel:+2348101234567">+234 810 1234 567</a>
+                        </div>
+                    </div>
+                    <!--Social section-->
+                    <div class="social-section">
+                        <h5 class="section-title">Socials</h5>
+                        <div class="social-icon">
+                            <img src="./assets/icons8-linked-in-48.png"alt="class="/>
+                            <img src="./assets/icons8-twitterx-50.png"alt="class"/>
+                            <img src="./assets/icons8-instagram-48.png"alt="class"/>
+                            <img src="./assets/icons8-facebook-48.png"alt="class"/>
+                        </div>
+                        <div class="contact-btn-wrapper">
+                            <button class="btn-outline">contact me now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="">
+                <!--only show this section on destop-->
+                <div class="col-span-2 show destop-only gen-pad">
+                    <div class="hidden">
+                        <p class="hero-text-position">John Doe</p>
+                        <p class="hero-text-position">Software Engineering</p>
+                    </div>
+                    <div class="hero-btn-container">
+                        <button class="btn btn-blue">share link</button>
+                        <button class="btn btn-outline">projects</button>
+                    </div>
+                </div>
+                <!--second section-->
+                <section class="gen-pad" col-span-2 second-section>
+                    <h4 class="second-section-title section section-titles">What I offer</h4>
+                    <p class="section-section-title">Lorem ipsum dolor sit amet, cosectetuer adipiscing elit. aenean commodonligula eget doolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturientmontes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis eenim. Donec peede justo, fringilla vel, aliiquet nec,vulputate eget, arcu. <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitea, justo. Nullam dictum felis eu pede molliis pretium. integer tincidunt. Cras dapibus Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eeu consequat vitae.</p>
+                </section>
+                <!--third section-->
+                <section class="third-section gen-pad col-span-2">
+                    <h4 class="section-title">skill set</h4>
+                    <div class="skill-wrapper">
+                        <button type="button"class="btn-outline">Angula</button>
+                        <button type="button"class="btn btn-outline">UI Design</button>
+                        <button type="button"class="btn-outline">Java Development</button>
+                        <button type="button"class="btn btn-outline">Java Development</button>
+                        <button type="button"class="btn btn-outline">React JS</button>
+                        <button type="button"class="btn-outline">HTML</button>
+                        <button type="button"class="btn btn-outline">CSS</button>
+                        <button type="button"class="btn-outline">Management</button>
+                        <button type="button"class="btn btn-outline">UX Design</button>
+                        <button type="button"class="btn btn-outline">Python</button>
+                        <button type="button"class="btn btn-outline">Vue JS</button>
+                        <button type="button"class="btn btn-outline">C#</button>
+                    </div>
+                </section>
+                <!--fourth section-->
+                <section class="gen-pad fouth-section col-span-2">
+                    <h4 class="section-title">Certification</h4>
+                    <div class="Cer-item-wrapper">
+                        <p class="sub-info-label">React</p>
+                        <p class="sub-info-title">myReactcertificate.com</p>
+                        <!--<div class="">
+                            <p class="">3y 6m</p>
+                        </div> -->
+                    </div>
+                    <div class="cer-item-wrapper">
+                        <p class="sub-info-label">Angular</p>
+                        <xp class="sub-info-title">myAngularcertificate.com</xp>
+                        <!--<div class="">
+                            <p class="">3y 6m</p>
+                        </div> -->
+                    </div>
+                    <div class="cert-item-wrapper">
+                        <p class="sub-info-label">Vue</p>
+                        <p class="sub-info-title">myVueCertificate.com</p>
+                        <!--<div class="">
+                            <p class="">3y 6m</p>
+                        </div> -->
+                    </div>
+                </section>
+                <!-- Fifth Section -->
+                <section class="gen-pad fourth-section col-span-2">
+                    <h4 class="section title">Experience</h4>
+                    <div class="experience-container">
+                        <div class="experience-wrapper">
+                            <div class="">
+                                <img src="./assets/icons8-linked-in-48.png"alt=""/>
+                            </div>
+                            <div class="">
+                                <p class="sub-info-label">Software Engineer</p>
+                                <p class="sub-info-title">Cad consulting ltd</p>
+                            </div>
+                        </div>
+                        <div class="experience-wrapper">
+                            <div class="">
+                                <img src="./assets/icons8-linked-in-48.png"alt=""/>
+                            </div>
+                            <div class="">
+                                <p class="sub-info-label">Design Supevisor</p>
+                                <p class="sub-info-title">Cad Consulting ltd</p>
+                            </div>
+                        </div>
+                        <div class="experience-wrapper">
+                            <div class="">
+                                <img src="./assets.icons8-linked-in-48.png" alt=""/>
+                            </div>
+                            <div class="">
+                                <p class="sub-info-label">Communication Manager</p>
+                                <p class="sub-info-title">Cad consulting Ltd</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="">
+            <p class="">@copyright 2024</p>
+        </footer>
+    </body>
 </html>
+<!--The first line is a preconnect link to the Google fonts domain, which
+The second line is a preconnect link to the Google Fonts domain with a "cross
+The third line is the actual link to the Roboto foot family with specified" -->
